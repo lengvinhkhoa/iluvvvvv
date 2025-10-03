@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trung Thu Dành Cho Em ❤️</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="overflow-x-hidden">
+    <div class="stars-container"></div>
+
+    <div class="clouds">
+      <div class="cloud cloud-1"></div>
+      <div class="cloud cloud-2"></div>
+      <div class="cloud cloud-3"></div>
+    </div>
+
+    <div class="relative z-10">
+      <section class="min-h-screen flex items-center justify-center px-4 py-20">
+        <div class="text-center max-w-4xl mx-auto">
+          <div class="moon-container mb-12">
+            <div class="moon">
+              <div class="crater crater-1"></div>
+              <div class="crater crater-2"></div>
+              <div class="crater crater-3"></div>
+            </div>
+            <div class="moon-glow"></div>
+          </div>
+
+          <div class="lanterns-row flex justify-center gap-8 mb-8">
+            <div class="lantern lantern-swing-1">🏮</div>
+            <div class="lantern lantern-swing-2">🏮</div>
+            <div class="lantern lantern-swing-3">🏮</div>
+          </div>
+
+          <h1
+            class="text-5xl md:text-7xl font-bold mb-6 text-gradient animate-fade-in-up"
+          >
+            Hallooooo
+          </h1>
+          <h2
+            class="text-3xl md:text-5xl font-light mb-8 text-warm animate-fade-in-up delay-1"
+          >
+            Chúc cậu một mùa trung thu thật ấm áp và hạnh phúc! 🌙
+          </h2>
+
+          <button id="mainButton" class="heart-button group">
+            <span class="text-xl md:text-2xl">I luvv</span>
+            <div class="button-glow"></div>
+          </button>
+        </div>
+      </section>
+
+      <section
+        id="letterSection"
+        class="min-h-screen flex items-center justify-center px-4 py-20 opacity-0 hidden"
+      >
+        <div class="max-w-2xl mx-auto">
+          <div class="letter-card p-8 md:p-12">
+            <div class="flex justify-center mb-6">
+              <span class="text-6xl">💌</span>
+            </div>
+
+            <h3
+              class="text-3xl md:text-4xl font-bold text-center mb-8 text-gradient"
+            >
+              Gửi cậu
+            </h3>
+
+            <div
+              class="space-y-6 text-lg md:text-xl leading-relaxed text-warm letter-content"
+            >
+              <p class="animate-fade-in">
+                Đây có lẽ là lần đầu tiên tớ viết một bức thư tay gửi đến cậu.
+                Thật ra tớ không chắc cậu có nhớ hay biết tớ là ai, nhưng tớ vẫn
+                muốn một lần can đảm gửi gắm đôi điều.
+              </p>
+              <p class="animate-fade-in delay-2">
+                Tớ tên là Lê Nguyễn Vĩnh Khoa, học lớp TH3 kế bên. Có lẽ chúng
+                ta chỉ vô tình lướt qua nhau vài lần, nhưng khoảnh khắc ấy đủ để
+                tớ muốn viết nên những dòng này.
+              </p>
+              <p class="animate-fade-in delay-3">
+                Cậu biết không, trăng tròn đêm trung thu đẹp đến nao lòng. Nhưng
+                trong mắt tớ, ánh trăng kia cũng chẳng thể sánh bằng nụ cười của
+                cậu – dù chỉ là một thoáng mà tớ kịp nhìn thấy.
+              </p>
+              <p class="animate-fade-in delay-4">
+                Tớ chỉ mong rằng, không chỉ trong mùa Trung Thu này, mà cả những
+                mùa Trung Thu sau nữa, nếu có duyên, tớ sẽ được cùng cậu ngắm
+                trăng, cùng chia sẻ những phút giây thật bình yên.
+              </p>
+              <p
+                class="text-center font-semibold text-2xl mt-8 animate-fade-in delay-5"
+              >
+                Chúc cậu một Trung Thu ấm áp, hạnh phúc và luôn nở nụ cười thật
+                rạng rỡ! 🥮🏮
+              </p>
+            </div>
+
+            <div class="flex justify-center gap-4 mt-12 text-4xl">
+              <span class="animate-bounce-slow">🌕</span>
+              <span class="animate-bounce-slow delay-1">💖</span>
+              <span class="animate-bounce-slow delay-2">🌕</span>
+            </div>
+          </div>
+
+          <div class="text-center mt-8">
+            <button id="continueButton" class="heart-button">
+              <span class="text-xl">Tiếp tục nha 🌟</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="memoriesSection"
+        class="min-h-screen flex items-center justify-center px-4 py-20 opacity-0 hidden"
+      >
+        <div class="max-w-4xl mx-auto">
+          <h3
+            class="text-4xl md:text-5xl font-bold text-center mb-20 text-gradient"
+          >
+            Những khoảnh khắc khiến tớ có tình cảm với cậu ✨
+          </h3>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+            <div class="memory-card group cursor-pointer" data-modal="modal1">
+              <div
+                class="text-5xl mb-4 group-hover:scale-110 transition-transform"
+              >
+                🌙
+              </div>
+              <h4 class="text-xl font-semibold mb-2">Lần đầu gặp cậu</h4>
+              <p class="text-warm">
+                Tớ nhớ mãi khoảnh khắc đó, trái tim tớ đập thật nhanh...
+              </p>
+              <div class="text-sm text-warm opacity-70 mt-3">
+                ✨ Nhấn để xem thêm
+              </div>
+            </div>
+
+            <div class="memory-card group cursor-pointer" data-modal="modal2">
+              <div
+                class="text-5xl mb-4 group-hover:scale-110 transition-transform"
+              >
+                💫
+              </div>
+              <h4 class="text-xl font-semibold mb-2">
+                Những cái nhìn thoáng qua
+              </h4>
+              <p class="text-warm">
+                Mỗi khi hai ta thoáng qua nhau, trái tim tớ lại đập nhanh hơn
+                một chút...
+              </p>
+              <div class="text-sm text-warm opacity-70 mt-3">
+                ✨ Nhấn để xem thêm
+              </div>
+            </div>
+
+            <div class="memory-card group cursor-pointer" data-modal="modal3">
+              <div
+                class="text-5xl mb-4 group-hover:scale-110 transition-transform"
+              >
+                🌟
+              </div>
+              <h4 class="text-xl font-semibold mb-2">Nụ cười của cậu</h4>
+              <p class="text-warm">
+                Là ánh sáng lung linh nhất trong đời tớ...
+              </p>
+              <div class="text-sm text-warm opacity-70 mt-3">
+                ✨ Nhấn để xem thêm
+              </div>
+            </div>
+
+            <div class="memory-card group cursor-pointer" data-modal="modal4">
+              <div
+                class="text-5xl mb-4 group-hover:scale-110 transition-transform"
+              >
+                💝
+              </div>
+              <h4 class="text-xl font-semibold mb-2">
+                Xin lỗi tớ bí ý tưởng rồi huhu
+              </h4>
+              <p class="text-warm">
+                Nhưng có lẽ tớ hi vọng cậu luôn bình yên và hạnh phúc...
+              </p>
+              <div class="text-sm text-warm opacity-70 mt-3">
+                ✨ Nhấn để xem thêm
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center final-message p-8 md:p-12">
+            <div class="text-6xl mb-6">🌕✨</div>
+            <h4 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">
+              Trung Thu Vui Vẻ Cậu Nhé!
+            </h4>
+            <p class="text-xl md:text-2xl text-warm mb-4">
+              Chúc cậu luôn xinh đẹp, hạnh phúc và rạng rỡ như trăng rằm 🌕
+            </p>
+            <p class="text-2xl md:text-3xl font-semibold text-gradient mt-8">
+              - Người luôn nghĩ về cậu 💕
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="mooncakes">
+      <div class="mooncake">🥮</div>
+      <div class="mooncake">🥮</div>
+      <div class="mooncake">🥮</div>
+    </div>
+
+    <!-- Modal Overlays -->
+    <div id="modalOverlay" class="modal-overlay">
+      <div class="modal-container">
+        <button class="modal-close">&times;</button>
+        <div id="modalContent" class="modal-content">
+          <!-- Content will be inserted by JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Content Templates (hidden) -->
+    <div style="display: none">
+      <!-- Modal 1 -->
+      <div id="modal1-content">
+        <div class="text-6xl text-center mb-6">🌙</div>
+        <h3 class="text-3xl font-bold text-center mb-6 text-gradient">
+          Lần đầu gặp cậu
+        </h3>
+        <div class="space-y-4 text-lg text-warm leading-relaxed">
+          <p>
+            Tớ vẫn nhớ như in khoảnh khắc đầu tiên nhìn thấy cậu trong đội xung
+            kích. Lúc đó thời gian như chậm lại, mọi thứ xung quanh dường như mờ
+            đi, chỉ còn cậu nổi bật giữa đám đông.
+          </p>
+          <p>
+            Nụ cười cậu trong ánh nắng buổi sớm hôm ấy đã khiến tim tớ đập loạn
+            nhịp. Có lẽ đây chính là cảm giác mà người ta gọi là “yêu từ cái
+            nhìn đầu tiên”.
+          </p>
+          <p class="text-center font-semibold mt-6">
+            Cảm ơn cậu vì đã xuất hiện trong cuộc đời tớ 💫
+          </p>
+        </div>
+      </div>
+
+      <!-- Modal 2 -->
+      <div id="modal2-content">
+        <div class="text-6xl text-center mb-6">💫</div>
+        <h3 class="text-3xl font-bold text-center mb-6 text-gradient">
+          Những lần lướt qua
+        </h3>
+        <div class="space-y-4 text-lg text-warm leading-relaxed">
+          <p>
+            Mỗi lần vô tình đi ngang cậu, tớ lại thấy tim mình đập nhanh hơn.
+            Những ánh nhìn thoáng qua tưởng chừng vô nghĩa nhưng lại làm tớ mỉm
+            cười suốt cả ngày.
+          </p>
+          <p>
+            Cậu có biết không? Dù chỉ là một khoảnh khắc, nhưng đối với tớ, đó
+            là động lực để một ngày dài trở nên dịu dàng hơn.
+          </p>
+          <p>
+            Tớ mong có thể cùng cậu chia sẻ những câu chuyện nhỏ nhặt, cùng nhau
+            trải qua đủ mọi cung bậc cảm xúc – không chỉ những cái nhìn thoáng
+            qua nữa.
+          </p>
+          <p class="text-center font-semibold mt-6">
+            Muốn cùng cậu hiểu nhau nhiều hơn ✨
+          </p>
+        </div>
+      </div>
+
+      <!-- Modal 3 -->
+      <div id="modal3-content">
+        <div class="text-6xl text-center mb-6">🌟</div>
+        <h3 class="text-3xl font-bold text-center mb-6 text-gradient">
+          Nụ cười của cậu
+        </h3>
+        <div class="space-y-4 text-lg text-warm leading-relaxed">
+          <p>
+            Nụ cười của cậu chính là ánh sáng rực rỡ nhất mà tớ từng thấy. Mỗi
+            khi cậu cười, tớ cảm giác cả thế giới cũng trở nên tươi sáng hơn.
+          </p>
+          <p>
+            Có những ngày mệt mỏi, nhưng chỉ cần nhìn thấy cậu cười, mọi áp lực
+            của tớ như tan biến. Cậu như liều thuốc giúp tớ vượt qua mọi khó
+            khăn.
+          </p>
+          <p>
+            Tớ sẽ luôn cố gắng để làm cậu cười nhiều hơn, vì nụ cười của cậu đối
+            với tớ còn quý hơn bất cứ điều gì trên đời.
+          </p>
+          <p class="text-center font-semibold mt-6">
+            Hãy luôn cười như thế nhé cậu 😊
+          </p>
+        </div>
+      </div>
+
+      <div id="modal4-content">
+        <div class="text-6xl text-center mb-6">💝</div>
+        <h3 class="text-3xl font-bold text-center mb-6 text-gradient">
+          Xin lỗi tớ bí ý tưởng rồi huhu
+        </h3>
+        <div class="space-y-4 text-lg text-warm leading-relaxed">
+          <p>
+            Tớ muốn cùng cậu tạo thêm thật nhiều kỷ niệm đẹp. Không chỉ mùa
+            Trung Thu này mà cả những mùa sau, tớ đều mong được ở bên cậu.
+          </p>
+          <p>
+            Tớ muốn được đi những nơi cậu muốn đến, làm những điều cậu thích, và
+            quan trọng nhất là ở bên khi cậu cần.
+          </p>
+          <p>
+            Và cuối cùng, tớ hi vọng dù như nào đi nữa, cậu sẽ luôn bình yên và
+            hạnh phúc. Dù tương lai có ra sao, tớ vẫn mong cậu sẽ luôn là một
+            phần trong cuộc đời tớ.
+          </p>
+          <p class="text-center font-semibold mt-6">Luvvv youu 💕</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
